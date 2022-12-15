@@ -1,0 +1,16 @@
+[[chains]]
+registry-name = "stargaze"
+denom = "stars"
+exponent = 6
+rest-api = "https://rest.stargaze-apis.com"
+validator = "starsvaloper1f4tj483qfrt3yemjdlx5e577h7e3r52ydyqd3s"
+[[chains.wallets]]
+name = "something"
+address = "stars1abc123"
+[[chains.wallets]]
+name = "something else"
+address = "stars1abc678"
+
+[[chains]]
+registry-name = "etc"
+#...
